@@ -84,6 +84,7 @@ header{
 }
 .about-content{
     flex-basis: 50%;
+    width: 100%;
 }
 .title{
     color:gold;
@@ -127,6 +128,7 @@ header{
     justify-content: center;
     align-items: center;
     margin-top: 20px;
+    margin-left: 20px;
 
 }
 .skills-project{
@@ -138,7 +140,7 @@ header{
 
 }
 .project-btn{
-    margin-top:20px ;
+    margin-top:20px;
     margin-left: 80px;
     border: none;
     padding: 10px 20px;
@@ -178,6 +180,7 @@ footer{
     .skills-project-info{
        
         grid-template-columns: 350px 350px;
+       
     }
 }
 
@@ -186,6 +189,13 @@ footer{
     .skills-project-info{
        
         grid-template-columns: 350px;
+    }
+}
+@media screen and (width<=640px) {
+
+    .about-content{
+        flex-basis: 100%;
+      
     }
 }
 @media screen and (width<=405px) {
